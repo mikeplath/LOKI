@@ -1,0 +1,36 @@
+# Ignore large data directories
+/DATABASE/
+/indexed_data/
+/vector_db/
+/models/
+/LLM/models/
+*.gguf
+*.bin
+*.model
+*.pdf
+*.zip
+
+# Ignore logs
+/logs/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
